@@ -211,9 +211,12 @@ body{
         flex-direction: column-reverse;
     }
     .banner-logos{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns:repeat(4, 1fr);
+        justify-items: center;
+        gap: 5px;
         margin-left: 0;
         margin-right: 0;      
+        width: 100%;
     }
     .banner-logos img{
         width: 100%;
@@ -223,14 +226,17 @@ body{
         margin-right: 0;
         margin-left: 0;
     }
+    .popular-card img{
+        width: 100%;
+    }
     .featured{
         flex-direction: column-reverse;
+    }
+    .featured img{
+        width: 100%;
     }
     .footer{
         margin-bottom: 0;
     }
-    .container{
-        margin-right: 0;
-        margin-left: 15px;
-    }
+   
 }
