@@ -159,14 +159,12 @@ body{
 /* footer css */
 
 .footer{
-    background-color: #0a0826;
+    background-color: rgb(10, 8, 38);
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: #fff;
-    width: 100%;
-    margin: 0 auto;
-    padding: 40px;
+    padding: 40px 0;
 }
 .footer h3{
     font-size: 20px;
@@ -213,19 +211,26 @@ body{
         flex-direction: column-reverse;
     }
     .banner-logos{
-        width: 100%;
         grid-template-columns: repeat(4, 1fr);
         margin-left: 0;
-        margin-right: 0;
-        padding: 5px;        
+        margin-right: 0;      
+    }
+    .banner-logos img{
+        width: 100%;
     }
     .popular-cards{
         grid-template-columns: 1fr;
+        margin-right: 0;
+        margin-left: 0;
     }
     .featured{
         flex-direction: column-reverse;
     }
     .footer{
-        width: 100%;
+        margin-bottom: 0;
+    }
+    .container{
+        margin-right: 0;
+        margin-left: 15px;
     }
 }
