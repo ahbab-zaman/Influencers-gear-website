@@ -212,8 +212,8 @@ body{
     }
     .banner-logos{
         grid-template-columns:repeat(4, 1fr);
-        justify-items: center;
-        gap: 5px;
+        align-content: center;
+        gap: 10px;
         margin-left: 0;
         margin-right: 0;      
         width: 100%;
